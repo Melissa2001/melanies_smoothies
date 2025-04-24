@@ -4,7 +4,6 @@ from snowflake.snowpark.functions import col
 
 cnx=st.connection("snowflake")
 session=cnx.session()
-conn = snowflake.connector.connect(**st.secrets["connections.snowflake"])
 
 st.title(":cup_with_straw: Customize Your Smoothie! :cup_with_straw:")
 st.write(
